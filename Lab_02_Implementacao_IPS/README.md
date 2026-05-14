@@ -48,22 +48,30 @@ A prova de conceito foi validada com a detecção em tempo real de uma tentativa
 
 ### Capturas de tela (ordem cronológica)
 
-1. ![Instalação do Snort e atualização de pacotes](images/1.png)
-   - Mostra a execução de `sudo apt update && sudo apt install snort -y` após o switch temporário para NAT.
-2. ![Abertura do arquivo local.rules para edição](images/2.png)
-   - Exibe o comando `sudo nano /etc/snort/rules/local.rules` antes de inserir a regra personalizada.
-3. ![Conteúdo da regra personalizada em local.rules](images/3.png)
-   - Regra criada para detectar o payload do backdoor VSFTPD 2.3.4.
-4. ![Inicialização do Snort com snort.lua e local.rules](images/4.png)
-   - Comando de execução do Snort em modo de teste com `-k none` e leitura da configuração Lua.
-5. ![Status do Snort e preparação do processamento de pacotes](images/5.png)
-   - Confirmação de que as políticas, regras e o pcap DAQ estão ativos para captura de tráfego.
-6. ![Teste de ataque FTP contra o Metasploitable 2](images/6.png)
-   - Conexão ao VSFTPD 2.3.4 com usuário `hacker` para gerar o tráfego malicioso.
-7. ![Execução do exploit e alerta gerado](images/7.png)
-   - Snort inicia o processamento de pacotes e fica pronto para detectar o ataque.
-8. ![Detecção final do backdoor com payload interceptado](images/8.png)
-   - Alerta em tempo real e extração do payload: `USER hacker:))`.
+1. - Mostra a execução de `sudo apt update && sudo apt install snort -y` após o switch temporário para NAT.
+![Instalação do Snort e atualização de pacotes](images/1.png)
+   
+2. - Exibe o comando `sudo nano /etc/snort/rules/local.rules` antes de inserir a regra personalizada.
+    ![Abertura do arquivo local.rules para edição](images/2.png)
+   
+3. - Regra criada para detectar o payload do backdoor VSFTPD 2.3.4.
+    ![Conteúdo da regra personalizada em local.rules](images/3.png)
+   
+4. - Comando de execução do Snort em modo de teste com `-k none` e leitura da configuração Lua.
+    ![Inicialização do Snort com snort.lua e local.rules](images/4.png)
+   
+5. - Confirmação de que as políticas, regras e o pcap DAQ estão ativos para captura de tráfego.
+    ![Status do Snort e preparação do processamento de pacotes](images/5.png)
+   
+6. - Conexão ao VSFTPD 2.3.4 com usuário `hacker` para gerar o tráfego malicioso.
+    ![Teste de ataque FTP contra o Metasploitable 2](images/6.png)
+   
+7. - Snort inicia o processamento de pacotes e fica pronto para detectar o ataque.
+    ![Execução do exploit e alerta gerado](images/7.png)
+   
+8. - Alerta em tempo real e extração do payload: `USER hacker:))`.
+    ![Detecção final do backdoor com payload interceptado](images/8.png)
+   
 
 A evidência final inclui o alerta:
 
