@@ -63,10 +63,10 @@ A prova de conceito foi validada com a detecção em tempo real de uma tentativa
 5. - Confirmação de que as políticas, regras e o pcap DAQ estão ativos para captura de tráfego.
     ![Status do Snort e preparação do processamento de pacotes](images/5.png)
    
-6. - Conexão ao VSFTPD 2.3.4 com usuário `hacker` para gerar o tráfego malicioso.
+6. - Snort inicia o processamento de pacotes e fica pronto para detectar o ataque.
     ![Teste de ataque FTP contra o Metasploitable 2](images/6.png)
    
-7. - Snort inicia o processamento de pacotes e fica pronto para detectar o ataque.
+7. - Conexão ao VSFTPD 2.3.4 com usuário `hacker` para gerar o tráfego malicioso.
     ![Execução do exploit e alerta gerado](images/7.png)
    
 8. - Alerta em tempo real e extração do payload: `USER hacker:))`.
