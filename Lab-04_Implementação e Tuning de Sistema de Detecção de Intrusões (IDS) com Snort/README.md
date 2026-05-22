@@ -59,7 +59,7 @@ Primeiro, identificamos os adaptadores de rede e o IP da máquina Ubuntu:
 $ ip a
 ```
 
-![Descoberta de Interface de Rede](./images/Captura%20de%20tela%202026-05-21%20182047.png)
+![Descoberta de Interface de Rede](./images/Descobrindo IP.png)
 
 Neste laboratório utilizamos a interface **ens33** com IP **192.168.0.128** (ou similar, dependendo do ambiente).
 
@@ -165,13 +165,12 @@ Para eliminar os falsos positivos, refinamos a regra especificando:
 alert icmp $EXTERNAL_NET any -> $HOME_NET any (msg:"ALERTA DE SEGURANÇA: Ping (ICMP) Externo detectado!"; itype:8; sid:1000001; rev:2;)
 ```
 
-**O que mudou (O "Por Quê")**:
+**O que mudou**:
 
 | Mudança | Benefício |
 |---------|-----------|
 | `$EXTERNAL_NET` | Apenas alertamos se tráfego vier **de fora** da nossa rede |
 | `itype:8` | Filtramos especificamente o Tipo 8 do ICMP (Echo Request = ping) |
-| Ignoramos respostas | Não alertamos sobre Echo Reply e ruídos internos |
 | `rev:2` | Incrementamos a revisão pois alteramos a regra |
 
 ![Refinando a Regra](./images/Refinando%20a%20Regra.png)
