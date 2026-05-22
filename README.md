@@ -28,7 +28,7 @@ Abaixo está o registro cronológico dos meus projetos e laboratórios práticos
   - **Ferramentas:** Bash.
   - **Resultados:** Script funcional com operações básicas (soma, subtração, multiplicação, divisão) e tratamento de erros (divisão por zero).
 
-* 📁 **[Lab 04: Implementação e Tuning de IDS com Snort](./Lab_04_Implementação e Tuning de Sistema de Detecção de Intrusões (IDS) com Snort/)**
+* 📁 **[Lab 04: Implementação e Tuning de IDS com Snort](<./Lab_04_Implementação e Tuning de Sistema de Detecção de Intrusões (IDS) com Snort/>)**
   - **Foco:** Configuração do Snort 2.x em Ubuntu, escrita de regras customizadas e tuning para redução de falsos positivos (ex.: regras ICMP refinadas).
   - **Ferramentas:** Snort IDS, Ubuntu 24.04 LTS, ferramentas de diagnóstico de rede.
   - **Resultados:** Regras ajustadas para detectar pings ICMP externos sem gerar falsos positivos; documentação de comandos e procedimentos de validação.
