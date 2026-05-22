@@ -14,13 +14,24 @@ Abaixo está o registro cronológico dos meus projetos e laboratórios práticos
 
 ### 2026
 * 📁 **[Lab 01: Configuração de Sandbox e Exploração de Backdoor (CVE-2011-2523)](./Lab_01_Exploracao_FTP/)**
-  * **Foco:** Criação de ambiente isolado (Host-only), mapeamento de rede, Evasão Básica e Pós-Exploração.
-  * **Ferramentas:** VMware, Kali Linux, Nmap, Metasploit Framework, Meterpreter.
-  * **Alvo:** Metasploitable 2 (vsftpd 2.3.4).
+  - **Foco:** Construção de sandbox isolado (Host-only), reconhecimento ativo, identificação de serviço vulnerável e exploração de backdoor (vsftpd 2.3.4).
+  - **Ferramentas:** VMware, Kali Linux, Nmap, Searchsploit, Metasploit, Meterpreter.
+  - **Resultados:** Exploração bem-sucedida com obtenção de sessão root e análise de pós-exploração.
 
-* *(Em breve)* 📁 **[Lab 02: Título do Próximo Laboratório](./)**
-  * **Foco:** ...
-  * **Ferramentas:** ...
+* 📁 **[Lab 02: Implementação de IPS e Virtual Patching com Snort 3](./Lab_02_Implementacao_IPS/)**
+  - **Foco:** Proteção preventiva em sandbox isolada usando Snort 3 como IPS para mitigar exploração de backdoor (virtual patching).
+  - **Ferramentas:** Snort 3 (Lua), regras customizadas, ambientes isolados (Host-only/NAT temporário).
+  - **Resultados:** Detecção e bloqueio de tentativa de exploração em tempo real; lições sobre instalação em ambientes air-gapped e tuning de DAQ (`-k none`).
+
+* 📁 **[Lab 03: Calculadora em Bash Script](./Lab_03_Calculadora_em_Bash_Script/)**
+  - **Foco:** Projeto didático em Bash para praticar scripting e I/O no terminal.
+  - **Ferramentas:** Bash.
+  - **Resultados:** Script funcional com operações básicas (soma, subtração, multiplicação, divisão) e tratamento de erros (divisão por zero).
+
+* 📁 **[Lab 04: Implementação e Tuning de IDS com Snort](./Lab_04_Implementação e Tuning de Sistema de Detecção de Intrusões (IDS) com Snort/)**
+  - **Foco:** Configuração do Snort 2.x em Ubuntu, escrita de regras customizadas e tuning para redução de falsos positivos (ex.: regras ICMP refinadas).
+  - **Ferramentas:** Snort IDS, Ubuntu 24.04 LTS, ferramentas de diagnóstico de rede.
+  - **Resultados:** Regras ajustadas para detectar pings ICMP externos sem gerar falsos positivos; documentação de comandos e procedimentos de validação.
 
 ---
 
