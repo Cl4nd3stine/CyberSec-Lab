@@ -59,7 +59,7 @@ Primeiro, identificamos os adaptadores de rede e o IP da máquina Ubuntu:
 $ ip a
 ```
 
-![Descoberta de Interface de Rede](./images/Descobrindo IP.png)
+![Descoberta de Interface de Rede](./images/Descobrindo_IP.png)
 
 Neste laboratório utilizamos a interface **ens33** com IP **192.168.0.128** (ou similar, dependendo do ambiente).
 
