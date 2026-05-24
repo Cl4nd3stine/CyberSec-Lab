@@ -33,6 +33,11 @@ Abaixo está o registro cronológico dos meus projetos e laboratórios práticos
   - **Ferramentas:** Snort IDS, Ubuntu 24.04 LTS, ferramentas de diagnóstico de rede.
   - **Resultados:** Regras ajustadas para detectar pings ICMP externos sem gerar falsos positivos; documentação de comandos e procedimentos de validação.
 
+* 📁 **[Lab 05: Implementação de um SOC com Wazuh SIEM XDR](<./Lab_05_Implementação de um SOC com Wazuh SIEMXDR/>)**
+  - **Foco:** Instalação e configuração de um SOC (Security Operations Center) com Wazuh SIEM/XDR para coleta centralizada de eventos, correlação de alertas e monitoramento de endpoints Linux.
+  - **Ferramentas:** Wazuh Manager, Wazuh Dashboard, Wazuh Agent, Ubuntu 25.10, HTTPS/443.
+  - **Resultados:** Servidor Wazuh funcional com agente Linux registrado e ativo, visualização de eventos de segurança no painel de Threat Hunting.
+
 ---
 
 ## 🛠️ Tecnologias e Ferramentas
