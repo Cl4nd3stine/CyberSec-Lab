@@ -38,6 +38,11 @@ Abaixo está o registro cronológico dos meus projetos e laboratórios práticos
   - **Ferramentas:** Wazuh Manager, Wazuh Dashboard, Wazuh Agent, Ubuntu 25.10, HTTPS/443.
   - **Resultados:** Servidor Wazuh funcional com agente Linux registrado e ativo, visualização de eventos de segurança no painel de Threat Hunting.
 
+* 📁 **[Lab 06: Auditoria e Pentest em Aplicações Web (OWASP Top 10) utilizando DVWA e Docker](./Lab_06_Auditoria e Pentest em Aplicações Web (OWASP Top 10) utilizando DVWA e Docker/)**
+  - **Foco:** Implantação isolada de DVWA em Docker, identificação de vulnerabilidades OWASP Top 10, exploração de força bruta, SQL injection e command injection.
+  - **Ferramentas:** Docker, DVWA, Hydra, SQLMap, Ubuntu.
+  - **Resultados:** Ambiente vulnerável operacional, exploração valiosa de autenticação fraca, injeção SQL e execução remota de comandos.
+
 ---
 
 ## 🛠️ Tecnologias e Ferramentas
