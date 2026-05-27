@@ -43,6 +43,11 @@ Abaixo está o registro cronológico dos meus projetos e laboratórios práticos
   - **Ferramentas:** Docker, DVWA, Hydra, SQLMap, Ubuntu.
   - **Resultados:** Ambiente vulnerável operacional, exploração valiosa de autenticação fraca, injeção SQL e execução remota de comandos.
 
+* 📁 **[Lab 07: Port Scanner em Python](./Lab_07_Port Scanner/)**
+  - **Foco:** Desenvolvimento de scanner de portas TCP com coleta de banners para identificação de serviços.
+  - **Ferramentas:** Python 3, socket, threading, queue.
+  - **Resultados:** Identificação de portas abertas e banners de serviços em alvos autorizados.
+
 ---
 
 ## 🛠️ Tecnologias e Ferramentas
