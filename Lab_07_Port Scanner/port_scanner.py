@@ -1,5 +1,4 @@
 import socket
-import sys
 from threading import Thread
 from queue import Queue
 
