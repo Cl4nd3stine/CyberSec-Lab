@@ -38,15 +38,20 @@ Abaixo está o registro cronológico dos meus projetos e laboratórios práticos
   - **Ferramentas:** Wazuh Manager, Wazuh Dashboard, Wazuh Agent, Ubuntu 25.10, HTTPS/443.
   - **Resultados:** Servidor Wazuh funcional com agente Linux registrado e ativo, visualização de eventos de segurança no painel de Threat Hunting.
 
-* 📁 **[Lab 06: Auditoria e Pentest em Aplicações Web (OWASP Top 10) utilizando DVWA e Docker](./Lab_06_Auditoria e Pentest em Aplicações Web (OWASP Top 10) utilizando DVWA e Docker/)**
+* 📁 **[Lab 06: Auditoria e Pentest em Aplicações Web (OWASP Top 10) utilizando DVWA e Docker](<./Lab_06_Auditoria e Pentest em Aplicações Web (OWASP Top 10) utilizando DVWA e Docker/>)**
   - **Foco:** Implantação isolada de DVWA em Docker, identificação de vulnerabilidades OWASP Top 10, exploração de força bruta, SQL injection e command injection.
   - **Ferramentas:** Docker, DVWA, Hydra, SQLMap, Ubuntu.
   - **Resultados:** Ambiente vulnerável operacional, exploração valiosa de autenticação fraca, injeção SQL e execução remota de comandos.
 
-* 📁 **[Lab 07: Port Scanner em Python](./Lab_07_Port Scanner/)**
+* 📁 **[Lab 07: Port Scanner em Python](<./Lab_07_Port Scanner/>)**
   - **Foco:** Desenvolvimento de scanner de portas TCP com coleta de banners para identificação de serviços.
   - **Ferramentas:** Python 3, socket, threading, queue.
   - **Resultados:** Identificação de portas abertas e banners de serviços em alvos autorizados.
+
+* 📁 **[Lab 08: Ataque de Negação de Serviço (DoS) - Slowloris](<./Lab_08_Ataque de Negação de Serviço (DOS)/>)**
+  - **Foco:** Simulação, análise e mitigação de ataque de Negação de Serviço (DoS) da camada 7 usando Slowloris para esgotamento de pool de conexões.
+  - **Ferramentas:** Kali Linux, Metasploitable 2, Apache, slowhttptest, Wireshark.
+  - **Resultados:** Execução bem-sucedida do ataque com serviço Apache indisponibilizado; elaboração de estratégias de defesa como uso do módulo `mod_reqtimeout`.
 
 ---
 
