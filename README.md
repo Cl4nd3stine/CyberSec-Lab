@@ -53,6 +53,11 @@ Abaixo está o registro cronológico dos meus projetos e laboratórios práticos
   - **Ferramentas:** Kali Linux, Metasploitable 2, Apache, slowhttptest, Wireshark.
   - **Resultados:** Execução bem-sucedida do ataque com serviço Apache indisponibilizado; elaboração de estratégias de defesa como uso do módulo `mod_reqtimeout`.
 
+* 📁 **[Lab 09: Análise de Tráfego e MITM (ARP Spoofing)](<./Lab_09_Análise de Tráfego, Interceptação e Integridade em Rede Local (MITM  ARP Spoofing)/>)**
+  - **Foco:** Simulação, análise forense e execução de ataque Man-in-the-Middle (MITM) utilizando ARP Spoofing para interceptação silenciosa de tráfego.
+  - **Ferramentas:** Kali Linux, Metasploitable 2, arpspoof, sysctl, Wireshark, curl.
+  - **Resultados:** Execução bem-sucedida do envenenamento ARP bidirecional, roteamento invisível e interceptação de credenciais em texto claro (HTTP).
+
 ---
 
 ## 🛠️ Tecnologias e Ferramentas
