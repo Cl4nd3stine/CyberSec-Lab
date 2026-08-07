@@ -93,10 +93,12 @@ Para que o Debian deixasse de isolar as duas placas e começasse a repassar os p
 ![Ativando e tornando a regra permanente](./Images/10-%20Ativando%20e%20tornando%20a%20regra%20permanente.png)
 
 Para persistência pós-reinicialização, o arquivo `/etc/sysctl.conf` foi alterado.
-
 Descomentamos a linha correspondente ao encaminhamento IPv4, garantindo que o valor seja aplicado no boot.
 
 ![Tornando a regra permanente](./Images/11-%20Tornando%20a%20regra%20permanente.png)
+
+
+![Validação no sysctl](./Images/12-%20Valida%C3%A7%C3%A3o.png)
 
 Em seguida, recarregamos as configurações do kernel utilizando o comando `sysctl -p`.
 
@@ -105,9 +107,6 @@ Em seguida, recarregamos as configurações do kernel utilizando o comando `sysc
 A confirmação visual no terminal comprovou que o valor de `net.ipv4.ip_forward` assumiu o status ativo (`1`).
 
 ![Confirmação do IP Forwarding](./Images/14.png)
-![Validação no sysctl](./Images/12-%20Valida%C3%A7%C3%A3o.png)
-
-Sendo assim, chegamos no momento de configurar a máquina Windows (Cliente).
 
 Na máquina Windows (Cliente), a interface de rede foi configurada manualmente, apontando o tráfego externo para o Debian:
 - **IP:** 192.168.100.10
