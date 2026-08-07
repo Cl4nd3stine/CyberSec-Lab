@@ -58,6 +58,11 @@ Abaixo está o registro cronológico dos meus projetos e laboratórios práticos
   - **Ferramentas:** Kali Linux, Metasploitable 2, arpspoof, sysctl, Wireshark, curl.
   - **Resultados:** Execução bem-sucedida do envenenamento ARP bidirecional, roteamento invisível e interceptação de credenciais em texto claro (HTTP).
 
+* 📁 **[Lab 10: Construção de Roteador e Firewall de Borda com Linux](<./Lab_10_Construção de Roteador e Firewall de Borda com Linux/>)**
+  - **Foco:** Configuração, roteamento e tradução de endereços (NAT) utilizando o kernel do Linux para transformar o Debian em um gateway e firewall de borda.
+  - **Ferramentas:** Debian Linux, Windows, VMware, iptables, sysctl (ip_forward), nano.
+  - **Resultados:** Isolamento e roteamento bem-sucedido via IP Forwarding e masquerading (NAT) com acesso seguro à internet para a máquina cliente.
+
 ---
 
 ## 🛠️ Tecnologias e Ferramentas
