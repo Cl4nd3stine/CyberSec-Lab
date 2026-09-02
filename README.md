@@ -63,14 +63,19 @@ Abaixo está o registro cronológico dos meus projetos e laboratórios práticos
   - **Ferramentas:** Debian Linux, Windows, VMware, iptables, sysctl (ip_forward), nano.
   - **Resultados:** Isolamento e roteamento bem-sucedido via IP Forwarding e masquerading (NAT) com acesso seguro à internet para a máquina cliente.
 
+* 📁 **[Lab 11: Implementação de Controle de Perímetro e Egress Filtering com Squid Proxy](<./Lab_11_Implementação de Controle de Perímetro e Egress Filtering com Squid Proxy/>)**
+  - **Foco:** Implementação de proxy web de borda para controle de tráfego de saída (*egress filtering*), definição de ACLs granulares (domínios e termos regex), auditoria em tempo real e análise técnica sobre inspeção TLS/HTTPS.
+  - **Ferramentas:** Squid Proxy, Debian 10, Windows 10, systemd, nano, tail (logs).
+  - **Resultados:** Bloqueio efetivo de domínios e termos em HTTP, validação de regras de acesso com status `TCP_DENIED/403` e análise das limitações e requisitos (SSL Bumping) para inspeção profunda em conexões HTTPS criptografadas.
+
 ---
 
 ## 🛠️ Tecnologias e Ferramentas
 
 Ao longo destes laboratórios, venho desenvolvendo fluência em diversas tecnologias:
 
-* **Sistemas Operacionais:** Linux (Kali, Ubuntu), Windows.
-* **Redes:** TCP/IP, Roteamento, Análise de Tráfego.
+* **Sistemas Operacionais:** Linux (Kali, Ubuntu, Debian), Windows.
+* **Redes & Perímetro:** TCP/IP, Roteamento, Análise de Tráfego, Firewalls (iptables), Proxy (Squid).
 * **Segurança Ofensiva:** Nmap, Metasploit, Searchsploit, Exploit-DB.
 * **Virtualização:** VMware (Configurações avançadas de rede).
 
