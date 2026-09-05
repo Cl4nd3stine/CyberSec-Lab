@@ -68,6 +68,11 @@ Abaixo está o registro cronológico dos meus projetos e laboratórios práticos
   - **Ferramentas:** Squid Proxy, Debian 10, Windows 10, systemd, nano, tail (logs).
   - **Resultados:** Bloqueio efetivo de domínios e termos em HTTP, validação de regras de acesso com status `TCP_DENIED/403` e análise das limitações e requisitos (SSL Bumping) para inspeção profunda em conexões HTTPS criptografadas.
 
+* 📁 **[Lab 12: Implementação de VPN Client-to-Site com OpenVPN](<./Lab_12_Implementação de VPN Client-to-Site com OpenVPN/>)**
+  - **Foco:** Implantação prática de infraestrutura de VPN Client-to-Site com OpenVPN, criação de Autoridade Certificadora (CA), infraestrutura de chaves (PKI), Diffie-Hellman e túnel criptografado.
+  - **Ferramentas:** OpenVPN, Easy-RSA, OpenSSL, Debian 10, Kali Linux, systemd, nano, ping.
+  - **Resultados:** Túnel TLS/AES-256-GCM estabelecido com sucesso entre Kali Linux e Debian, validação de integridade criptográfica e roteamento privado com 0% de perda de pacotes.
+
 ---
 
 ## 🛠️ Tecnologias e Ferramentas
