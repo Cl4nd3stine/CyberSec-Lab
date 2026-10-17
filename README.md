@@ -73,6 +73,11 @@ Abaixo está o registro cronológico dos meus projetos e laboratórios práticos
   - **Ferramentas:** OpenVPN, Easy-RSA, OpenSSL, Debian 10, Kali Linux, systemd, nano, ping.
   - **Resultados:** Túnel TLS/AES-256-GCM estabelecido com sucesso entre Kali Linux e Debian, validação de integridade criptográfica e roteamento privado com 0% de perda de pacotes.
 
+* 📁 **[Lab 13: Gerenciamento de Permissões de Arquivos e Diretórios no Linux](<./Lab_13_Gerenciamento de Permissões de Arquivos no Linux/>)**
+  - **Foco:** Auditoria e reestruturação de permissões de acesso e controle em sistemas de arquivos Linux (UGO e notação simbólica) aplicando o princípio do menor privilégio.
+  - **Ferramentas:** Bash, `chmod`, `ls` (`-la`, `-ld`), Permissões Linux (rwx).
+  - **Resultados:** Remoção de permissões públicas de escrita no arquivo `project_k.txt`, blindagem de arquivos de pesquisa arquivados (`.project_x.txt`) e isolamento completo do diretório restrito (`drafts/`) contra acesso indevido por grupo e terceiros.
+
 ---
 
 ## 🛠️ Tecnologias e Ferramentas
